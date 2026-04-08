@@ -33,7 +33,7 @@ qtdLivros.addEventListener("input", function () {
 btnLista.addEventListener("click", function() {
   const titulo = nomeLivro.value.trim()
   if (titulo === "") {
-    window.alert("Digite um título válido!")
+    console.warn("Digite um título válido!")
     return
   }
 
